@@ -5,5 +5,5 @@ require("dotenv").config()
 const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
-    console.log(`Server Listen on http://localhost:${PORT}`)
+    console.log(`Server is Listen on http://localhost:${PORT}`)
 })
